@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name</label><br>
+        
+        <input type="text" id="name" name="name" placeholder="Your name"><br>
+        
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email"/><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br>
+        
+        <input type="date" id="date" name="date"> <br>
+        Gender<br>
+        Male<input type="radio" name="gender" value="male">
+        Female<input type="radio" name="gender" value="female"><br>
+
+        Programing Languages<br>
+        C
+        <input type="checkbox" name="C" id="C">
+        Python
+        <input type="checkbox" name="Pyt" id="Pyt">
+        Css
+        <input type="checkbox" name="Css" id="Css">
+        C++
+        <input type="checkbox" name="C++" id="C++"><br>
+        Degree<br>
+        <select name="degree" id="degree">
+            <option value="bachelor">Lisans</option>
+            <option value="msc">Yüksek Lisans</option>
+            <option value="phd">Doktora</option>
+        </select><br>
+
+        <textarea name="message" id="message" rows="10" cols="30" placeholder="Your Message">
+
+        </textarea><br>
+
+
+        <input type="submit" value="Submit">
+        <!--<button type="submit">Gönder</button>-->
+        <input type="reset" value="Sıfırla">
+
+
+    </form>
+    
+</body>
+</html>
